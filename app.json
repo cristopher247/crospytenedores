@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "RapiFood",
+    "slug": "RapiFood",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00a680"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.topher247.crospytenedores",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.topher247.crospytenedores",
+      "permissions": ["CAMERA_ROLL", "LOCATION"]
+    },
+    "description": ""
+  }
+}
